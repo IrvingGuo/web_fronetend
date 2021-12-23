@@ -2,6 +2,21 @@
 /* eslint-disable */
 
 declare namespace API {
+  type Album = {
+    id: string;
+    title: string;
+    artist: string;
+    price: number;
+
+    key?: number;
+  };
+
+  type Result = {
+    success?: boolean;
+    data?: any;
+    errorMessage?: string;
+  };
+
   type CurrentUser = {
     name?: string;
     avatar?: string;
