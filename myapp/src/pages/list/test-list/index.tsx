@@ -1,5 +1,5 @@
 import { getAllAlbums } from '@/services/ant-design-pro/name';
-import { Table, Tag, Space } from 'antd';
+import { Table } from 'antd';
 
 const columns = [
   {
