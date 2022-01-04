@@ -92,6 +92,12 @@ export default defineConfig({
           path: '/dashboard/workplace',
           component: './dashboard/workplace',
         },
+        {
+          name: 'chart',
+          icon: 'smile',
+          path: '/dashboard/charts',
+          component: './dashboard/charts',
+        }
       ],
     },
     {
@@ -354,7 +360,6 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  mfsu: {},
   webpack5: {},
   exportStatic: {},
 });
